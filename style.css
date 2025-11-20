@@ -33,6 +33,13 @@
     padding: 0.4rem 0.5rem;
 }
 
+@media screen and (max-width: 320px) {
+    .header-top-container {
+        flex-direction: column;
+        padding: 0.4rem 0.5rem;
+    }
+}
+
 .copy-container {
     padding-left: 8rem;
 }
@@ -263,18 +270,306 @@
     /* Applies a 10px radius to all corners */
 }
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: rgb(75, 4, 4);
     text-decoration: underline;
     transition: 1s ease-in-out;
 }
 
-html, body{
+html,
+body {
     scroll-behavior: smooth;
+}
+
+
+@media (max-width: 360px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.8rem 1rem;
+        gap: 0.5rem;
+    }
+
+    .header-top-container,
+    .info-right-container,
+    .main-container,
+    .detail-container,
+    .explore-follow-container {
+        flex-direction: column;
+        padding: 0.6rem 1rem;
+        align-items: stretch;
+    }
+
+    .copy-container,
+    .portfolio-image-container,
+    .thirddown-image-container,
+    .third-word-container {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .word-container,
+    .third-word-container {
+        width: 100%;
+        padding: 0.5rem 0.75rem;
+        gap: 0.35rem;
+    }
+
+    .portfolio-image-container img,
+    .third-class-topimages-container img,
+    .thirddown-image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .third-class-topimages-container {
+        flex-direction: column;
+        gap: 0.6rem;
+        width: 100%;
+    }
+
+    .firsttop-image-container {
+        width: 100%;
+    }
+
+    .placeorder-container {
+        font-size: 0.95rem;
+    }
+
+    .top-header-container {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .handles-container {
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    .copyright-container {
+        padding: 1rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Small phones and large phones (<= 480px) */
+@media (min-width: 361px) and (max-width: 480px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.9rem 1.25rem;
+        gap: 0.6rem;
+    }
+
+    .info-right-container,
+    .main-container,
+    .detail-container,
+    .explore-follow-container {
+        flex-direction: column;
+        padding: 0.75rem 1rem;
+        align-items: stretch;
+    }
+
+    .word-container,
+    .portfolio-image-container,
+    .thirddown-image-container,
+    .third-word-container {
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+
+    .portfolio-image-container img,
+    .third-class-topimages-container img,
+    .thirddown-image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .third-class-topimages-container {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .top-header-container {
+        font-size: 0.95rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+/* Small tablets / large phones in landscape (481px - 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-container {
+        padding: 1rem 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+    }
+
+    .info-right-container,
+    .explore-follow-container,
+    .main-container,
+    .detail-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0.9rem 1rem;
+    }
+
+    .word-container {
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+
+    .portfolio-image-container,
+    .thirddown-image-container {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .portfolio-image-container img,
+    .thirddown-image-container img {
+        width: 100%;
+    }
+
+    .third-class-topimages-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .third-word-container {
+        width: 100%;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .top-header-container {
+        font-size: 1rem;
+    }
+}
+
+/* Tablets and small laptops (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+        padding: 1rem 3rem;
+        gap: 1rem;
+    }
+
+    .main-container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 1rem 1.25rem;
+    }
+
+    .word-container {
+        width: 60%;
+        padding-left: 0.75rem;
+    }
+
+    .portfolio-image-container {
+        width: 40%;
+        padding-left: 1rem;
+    }
+
+    .portfolio-image-container img,
+    .third-class-topimages-container img,
+    .thirddown-image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .third-class-topimages-container {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .third-word-container {
+        width: 100%;
+        padding-left: 2rem;
+        font-size: 1.05rem;
+    }
+}
+
+/* Small desktops / large screens (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .header-container {
+        padding: 1rem 4rem;
+    }
+
+    .main-container {
+        padding: 1rem 1.25rem;
+    }
+
+    .word-container {
+        width: 60%;
+        padding-left: 1rem;
+    }
+
+    .portfolio-image-container {
+        padding-left: 2rem;
+    }
+
+    .third-word-container {
+        padding-left: 4rem;
+        font-size: 1.125rem;
+    }
+}
+
+/* Large desktops (1441px and up) — ensure spacing remains comfortable */
+@media (min-width: 1441px) {
+    .header-container {
+        padding: 1rem 7rem;
+    }
+
+    .main-container {
+        padding: 1rem 3rem;
+    }
+
+    .word-container {
+        max-width: 65%;
+    }
+
+    .portfolio-image-container {
+        padding-left: 4rem;
+    }
+
+    .third-word-container {
+        padding-left: 6rem;
+    }
+}
+
+/* Utility: ensure images never exceed their containers */
+.portfolio-image-container img,
+.third-class-topimages-container img,
+.thirddown-image-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Small text-scaling helpers for very small screens */
+@media (max-width: 420px) {
+
+    .top-header-container,
+    .copyright-container,
+    .placeorder-container {
+        font-size: 0.95rem;
+    }
 }

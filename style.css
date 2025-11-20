@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Libertinus+Serif+Display&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Serif Display", system-ui;
+    letter-spacing: -0.2px;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+    position: static;
+    top: 20px;
+    gap: 7pm;
+}
+
+.header-top-container {
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 0.4rem 0.5rem;
+}
+
+.copy-container {
+    padding-left: 8rem;
+}
+
+.info-right-container {
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0.5rem;
+    gap: 2rem;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.word-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /*the dividing line*/
+    padding: 1rem 1rem 1rem 0.5rem;
+    /* space above and below content*/
+    gap: 0.5rem;
+    overflow-y: auto;
+    column-gap: 2rem;
+}
+
+.portfolio-image-container {
+    width: 100%;
+    height: auto;
+    gap: 25rem;
+    padding-left: 12rem;
+}
+
+.portfolio-image-container img {
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    border-radius: 10px 10px 10px 10px;
+    /* Applies a 10px radius to all corners */
+}
+
+.third-section-container {
+    width: 100%;
+    height: auto;
+}
+
+.third-section-top-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.third-word-container {
+    width: 130%;
+    height: auto;
+    font-size: large;
+    font-style: 800;
+    font-style: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /*the dividing line*/
+    padding-left: 29rem;
+    /* space above and below content*/
+    overflow-y: auto;
+    column-gap: 2rem;
+}
+
+.third-word-container h5 {
+    gap: 24rem;
+    padding-left: 5rem;
+}
+
+.third-class-topimages-container {
+    width: 40%;
+    height: auto;
+    gap: 8rem;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: start;
+}
+
+.third-class-topimages-container img {
+    width: 40%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    border-radius: 10px 10px 10px 10px;
+    /* Applies a 10px radius to all corners */
+}
+
+.firsttop-image-container {
+    width: 50%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: colum;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.detail-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    column-gap: 3rem;
+}
+
+.thirddown-image-container {
+    width: 100%;
+    height: auto;
+    gap: 25rem;
+    padding-left: 1rem;
+}
+
+.thirddown-image-container img {
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    border-radius: 10px 10px 10px 10px;
+    /* Applies a 10px radius to all corners */
+}
+
+.placeorder-container {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 10px 10px 10px 10px;
+    /* Applies a 10px radius to all corners */
+    color: black;
+}
+
+.explore-follow-container {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    column-gap: 3rem;
+}
+
+.top-header-container {
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    column-gap: 6rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-style: initial;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.handles-container {
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.copyright-container {
+    width: 100%;
+    height: auto;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.copyright-container button {
+    background-color: black;
+    color: white;
+    text-decoration-color: white;
+    border-radius: 10px 10px 5px 10px;
+    /* Applies a 10px radius to all corners */
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: rgb(75, 4, 4);
+    text-decoration: underline;
+    transition: 1s ease-in-out;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
